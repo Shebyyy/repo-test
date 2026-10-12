@@ -167,7 +167,7 @@ jobs:
       - name: Merge into repo branch
         run: |
           cd repo
-          python3 ../master/.github/scripts/merge-repo.py "[]" "../master/repo"
+          python3 ../master/.github/scripts/merge-repo.py "[]" "../repo/repo"
 
       - name: Deploy to repo branch
         run: |
